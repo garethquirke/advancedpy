@@ -122,7 +122,7 @@ class Cat(Animal):
         Animal.display(self)
         if self.edible == True: isedible = "is edible"
         else: "is not edible"
-        print('he {} and '.format(self.sound), isedible)
+        print('he {}s and '.format(self.sound), isedible)
 
 mycat = Cat("Brendan", 4, "3", "orange", "meow", True)
 mycat.display()
