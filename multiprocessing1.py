@@ -1,4 +1,5 @@
 '''
+<<<<<<< HEAD
 GIL: Global Interpreter Lock
 This is a memory management safegaurd.
 Python is a single threaded language, so even if you use threads it
@@ -15,6 +16,10 @@ section.
 Because we're using separate processes, we're, in a sense, circumventing the GIL.
 Each process is subject to the GIL still, but, if you can figure out how to parallelize
 your process, you're going to see major performance improvements.
+=======
+Todo: add comments
+
+>>>>>>> 3f2ccb2f0a2f1ed51f33cf6df86c614d1870eca4
 '''
 
 import multiprocessing
@@ -26,6 +31,7 @@ if __name__ == '__main__':
     for i in range(100):
         p = multiprocessing.Process(target=spawn)
         p.start()
+<<<<<<< HEAD
         # p.join()
 
 def spawn(num):
@@ -43,3 +49,6 @@ if __name__ == '__main__':
     for i in range(5):
         p = multiprocessing.Process(target=spawn, args=(i, i+1))
         p.start()
+=======
+        # p.join()
+>>>>>>> 3f2ccb2f0a2f1ed51f33cf6df86c614d1870eca4
