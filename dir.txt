@@ -1,0 +1,1 @@
+cmd /k "cd C:\Users\garet\College\Post College\advancedpy"
