@@ -10,3 +10,5 @@ def random_starting_url():
     starting = ''.join(random.SystemRandom().choice(string.ascii_lowercase) for i in range(3))
     url = ''.join(['http://', starting, '.com'])
     return url
+
+# to do : finish at home without proxy
