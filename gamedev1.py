@@ -1,3 +1,5 @@
+import random
+
 class Blob:
     def __init__(self, color):
         self.x = random.randrange(0, WIDTH)
@@ -16,3 +18,7 @@ class Blob:
         
         if self.y < 0: self.y = 0
         elif self.y > HEIGHT: self.y = HEIGHT
+
+
+b1 = Blob('Orange')
+b1.move()
