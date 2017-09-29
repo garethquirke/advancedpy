@@ -1,1 +1,3 @@
 cmd /k "cd C:\Users\garet\College\Post College\advancedpy"
+
+# used to change into project dir at home
