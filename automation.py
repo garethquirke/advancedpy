@@ -5,3 +5,5 @@ driver = webdriver.Chrome(executable_path='C:\Program Files (x86)\chromedriver_w
 
 driver.get('http://www.github.com/garethquirke/')
 driver.close()
+
+# test inputs
